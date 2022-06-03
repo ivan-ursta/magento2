@@ -4,7 +4,7 @@
  * See COPYING.txt for license details.
  */
 
-namespace Learning\ClothingMaterial\Model\Attribute\Frontend;
+namespace DemoAttribute\ProductAttribute\Model\Attribute\Frontend;
 
 use Magento\Eav\Model\Entity\Attribute\Frontend\AbstractFrontend;
 use Magento\Framework\DataObject;

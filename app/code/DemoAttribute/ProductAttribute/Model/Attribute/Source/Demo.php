@@ -4,7 +4,7 @@
  * See COPYING.txt for license details.
  */
 
-namespace Learning\ClothingMaterial\Model\Attribute\Source;
+namespace DemoAttribute\ProductAttribute\Model\Attribute\Source;
 
 use Magento\Eav\Model\Entity\Attribute\Source\AbstractSource;
 

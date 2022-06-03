@@ -8,6 +8,6 @@ use Magento\Framework\Component\ComponentRegistrar;
 
 ComponentRegistrar::register(
     ComponentRegistrar::MODULE,
-    'Thecoachsmb_ProductAttribute',
+    'DemoAttribute_ProductAttribute',
     __DIR__
 );

@@ -4,7 +4,7 @@
  * See COPYING.txt for license details.
  */
 
-namespace Learning\ClothingMaterial\Model\Attribute\Backend;
+namespace DemoAttribute\ProductAttribute\Model\Attribute\Backend;
 
 use Magento\Catalog\Model\Product;
 use Magento\Eav\Model\Entity\Attribute\Backend\AbstractBackend;
