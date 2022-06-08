@@ -3,4 +3,7 @@
     <type name="Magento\Customer\Model\Session">
         <plugin name="afterLogout" type="\DemoPlugin\CustLog\Plugin\Session" sortOrder="1" disabled="false" />
     </type>
+    <type name="Magento\Catalog\Model\Product">
+        <plugin name="beforeSetName" type="\DemoPlugin\CustLog\Plugin\Product" sortOrder="1" disabled="false" />
+    </type>
 </config>

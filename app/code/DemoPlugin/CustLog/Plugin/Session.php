@@ -2,11 +2,15 @@
 
 namespace DemoPlugin\CustLog\Plugin;
 
-
 class Session
 {
-    public function afterLogout(\Magento\Customer\Model\Session $session, $result){
-    echo "Hello Plugin" . "</br>";
-    return $result;
-}
+    private $logger;
+    public function __construct() {
+        $this->logger = \Magento\Framework\App\ObjectManager::getInstance()->get('\Psr\Log\LoggerInterface');
+    }
+
+    public function afterLogout(\Magento\Customer\Model\Session $subject, $result){
+        $this->logger->debug('DemoPlugin-CustLog-after');
+        return $result;
+    }
 }
